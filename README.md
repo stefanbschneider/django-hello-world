@@ -6,8 +6,9 @@ As an example of how to build a new Django app and deploy it on Heroku.
 
 Corresponding blog posts:
 
-* [Building a Django App and Deploying It on Heroku](https://stefanbschneider.github.io/blog/django/heroku/github/deployment/2021/01/19/django-heroku.html)
-* [Adding Google Analytics to a Django App](https://stefanbschneider.github.io/blog/django/google%20analytics/2021/01/21/django-google-analytics.html)
+* [Building a Django App and Deploying It on Heroku](https://stefanbschneider.github.io/blog/django-heroku). Corresponds to [release v1.0](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.0.0).
+* [Adding Google Analytics to a Django App](https://stefanbschneider.github.io/blog/django-google-analytics). Corresponds to [release v1.1](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.1.0).
+* [Adding a Database to a Django App](https://stefanbschneider.github.io/blog/django-db). Corresponds to [release v1.2](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.2.0).
 
 ## Setup
 
