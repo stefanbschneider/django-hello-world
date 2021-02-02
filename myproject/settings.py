@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'helloworld.apps.HelloworldConfig',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -122,3 +123,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # location of static files in local development: https://learndjango.com/tutorials/django-favicon-tutorial
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+
+# for crispy forms with bootstrap
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
