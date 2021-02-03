@@ -9,6 +9,7 @@ Corresponding blog posts:
 * [Building a Django App and Deploying It on Heroku](https://stefanbschneider.github.io/blog/django-heroku). Corresponds to [release v1.0](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.0.0).
 * [Adding Google Analytics to a Django App](https://stefanbschneider.github.io/blog/django-google-analytics). Corresponds to [release v1.1](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.1.0).
 * [Adding a Database to a Django App](https://stefanbschneider.github.io/blog/django-db). Corresponds to [release v1.2](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.2.0).
+* [Using Bootstrap to Style a Django App](https://stefanbschneider.github.io/blog/django-bootstrap). Corresponds to [release v1.3](https://github.com/stefanbschneider/django-hello-world/releases/tag/v1.3.0).
 
 ## Setup
 
