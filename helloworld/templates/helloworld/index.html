@@ -14,17 +14,25 @@
       gtag('config', 'G-CGRRRR8664');
     </script>
 
+    {#  Bootstrap  #}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
     {#    Cookie banner #}
     <link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom","content":{"href":"https://www.websitepolicies.com/policies/view/Bvljbbkt"}})});</script>
 </head>
 <body>
 
-Hello World! ({{ clicks }}x)
+{% load crispy_forms_tags %}
+
+<div class="alert alert-success" role="alert">
+    {{ username }} says: "Hello World!" on {{ date }}. (Button clicked {{ clicks }}x in total.)
+</div>
 
 <form action="{% url 'helloworld:index' %}" method="post">
     {% csrf_token %}
-    <button type="submit" name="hello-world-button">Greet the world!</button>
+    {{ form | crispy }}
+    <button type="submit" class="btn btn-primary">Greet the world!</button>
 </form>
 
 </body>
